@@ -1,0 +1,32 @@
+interface Animal {
+    void cat();
+    }
+class cat {
+    void sound()
+    {
+        System.out.println("Meow Meow");
+    }
+}
+class soft extends cat implements Animal{
+     public void cat()
+        {
+            System.out.println("cat is white in color");
+        }
+    void voice()
+    {
+        System.out.println("voice of cat is soft");
+    }
+}
+public class Main{
+    public static void main(String[]args)
+        {
+            soft mysoft = new soft();
+            mysoft.cat();
+            mysoft.voice();
+            mysoft.sound();
+        }
+        
+        {
+       
+    }
+}

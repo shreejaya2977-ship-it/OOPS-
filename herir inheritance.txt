@@ -1,0 +1,32 @@
+class Animal {
+    void cat()
+    {
+        System.out.println("Its white in color");
+    }
+}
+class cat extends Animal{
+    void sound()
+    {
+        System.out.println("Meow Meow");
+    }
+}
+class soft extends Animal{
+    void voice()
+    {
+        System.out.println("voice of cat is soft");
+    }
+}
+public class Main{
+    public static void main(String[]args)
+        {
+            cat mycat=new cat(); 
+            soft mysoft = new soft();
+            mysoft.cat();
+            mysoft.voice();
+            mycat.sound();
+        }
+        
+        {
+       
+    }
+}

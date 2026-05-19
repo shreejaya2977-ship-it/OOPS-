@@ -1,0 +1,20 @@
+class Animal {
+    void cat()
+    {
+        System.out.println("Its white in color");
+    }
+}
+class cat extends Animal{
+    void sound()
+    {
+        System.out.println("Meow Meow");
+    }
+}
+public class Main{
+    public static void main(String[]args)
+    {
+        cat mycat = new cat();
+        mycat.cat();
+        mycat.sound();
+    }
+}
