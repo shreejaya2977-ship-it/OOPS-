@@ -1,0 +1,27 @@
+class flowers{
+    void name()
+    {
+        System.out.println("It is jasmine.");
+    }
+}
+class jasmine extends flowers{
+    void colors()
+    {
+        System.out.println("It is white in color.");
+    }
+}
+class uses extends jasmine{
+    void smell()
+    {
+        System.out.println("Commonly used for fragrants.");
+    }
+}
+public class Main{
+    public static void main(String[]args)
+    {
+       uses myuses=new uses();
+       myuses.name();
+       myuses.colors();
+       myuses.smell();
+    }
+}

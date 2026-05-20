@@ -1,0 +1,26 @@
+class Vehicle{
+    void Bikes()
+    {
+        System.out.println("Bikes are cool driving.");
+    }
+}
+class bike extends Vehicle{
+    void Brand()
+    {
+        System.out.println("Brand: TVS rider 125");
+    }
+  }
+  public class Main{
+    public static void main(String[]args)
+    {
+        bike mybike=new bike();
+        mybike.Bikes();
+        mybike.Brand();
+        
+    }
+  }
+
+
+
+
+

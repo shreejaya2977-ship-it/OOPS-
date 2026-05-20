@@ -1,0 +1,25 @@
+class Vehicle{
+    String brand = "TVS raider";
+    int model = 125;
+    void details()
+    {
+        System.out.println(" Brand = "+ brand);
+        System.out.println(" Model = "+ model);
+    }
+}
+class bikes extends Vehicle{
+    double price = 1.75 ;
+    void amount()
+    {
+        System.out.println("Price = "+ price + "lakh");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+
+        bikes mybikes = new bikes();
+
+        mybikes.details();
+        mybikes.amount();
+    }
+}

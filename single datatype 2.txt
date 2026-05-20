@@ -1,0 +1,28 @@
+class Watch{
+    String name = "Titan(Excel)";
+    int model = 7;
+    void details()
+    {
+        System.out.println("Brandname ="+ name );
+        System.out.println("Brandmodel="+ model +"cs");
+    }
+}
+    class watch extends Watch{
+        double amount = 5.5;
+        void prices()
+        {
+            System.out.println("Totalprice="+ amount +"k");
+        }
+    }
+    public class Main{
+        public static void main(String[]args)
+        {
+            watch mywatch = new watch();
+
+            mywatch.details();
+            mywatch.prices();
+        }
+    }
+
+
+    
