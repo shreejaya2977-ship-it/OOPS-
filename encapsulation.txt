@@ -1,0 +1,44 @@
+class Tourism {
+    private String location;
+    private String budget;
+    private String hotelname;
+
+    public void setlocation(String location) {
+        this.location = location;
+    }
+
+    public void setbudget(String budget) {
+        this.budget = budget;
+    }
+
+    public void sethotelname(String hotelname) {
+        this.hotelname = hotelname;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public String getBudget() {
+        return budget;
+    }
+
+    public String getHotelname() {
+        return hotelname;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Tourism s = new Tourism();
+
+        s.setlocation("Kodaikanal");
+        s.setbudget("50000");
+        s.sethotelname("JP Hotel");
+
+        System.out.println("Location = " + s.getLocation());
+        System.out.println("Budget = " + s.getBudget());
+        System.out.println("Hotel Name = " + s.getHotelname());
+    }
+}

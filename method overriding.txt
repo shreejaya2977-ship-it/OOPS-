@@ -1,0 +1,27 @@
+class Bikes{
+    int costofvarietiesofbikes()
+    {return 0;}
+}
+class TVSRaider extends Bikes{
+    int costofvarietiesofbikes ()
+    {return 120000;}
+}
+class KTMRC extends Bikes{
+    int costofvarietiesofbikes ()
+    {return 140000;}
+}
+class REHunter extends Bikes{
+    int costofvarietiesofbikes ()
+    {return 160000;}
+}
+public class Main{
+    public static void main(String[]args)
+    {
+    TVSRaider r = new TVSRaider();
+    KTMRC c = new KTMRC();
+    REHunter h = new REHunter();
+    System.out.println(" TVS Raider cost is ="+ r.costofvarietiesofbikes());
+    System.out.println(" KTM RC cost is ="+ c.costofvarietiesofbikes());
+    System.out.println(" RE Hunter cost is ="+ h.costofvarietiesofbikes());
+}
+}
