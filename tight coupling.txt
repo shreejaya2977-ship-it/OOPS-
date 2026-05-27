@@ -1,0 +1,21 @@
+class Department {
+    void Name()
+    {
+        System.out.println("Mathematics Department");
+    }
+}
+class Student{
+    Department d = new Department();
+    void details()
+    { 
+        d.Name();
+        System.out.println("Student details");
+    }
+}
+public class Main{
+    public static void main(String []args)
+    {
+        Student s = new Student();
+        s.details();
+    }
+}

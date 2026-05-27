@@ -1,0 +1,39 @@
+interface Animals{
+    void Sounds();
+}
+class Dog implements Animals{
+    public void Sounds()
+    {
+        System.out.println("Dog sounds vow vow");
+    }
+}
+class Cat implements Animals{
+    public void Sounds()
+    {
+        System.out.println("Cat sounds meow meow");
+    }
+}
+class Pets{
+    Animals a;
+    Pets(Animals a)
+    {
+     this.a = a;
+    }
+       void sounds()
+    {
+       a.Sounds(); 
+    }
+}
+public class Main{
+    public static void main(String[]args)
+    {
+        Animals a1 = new Dog();
+        Pets s1 = new Pets(a1);
+        s1.sounds();
+
+        Animals a2 = new Cat();
+        Pets s2 = new Pets(a2);
+        s2.sounds();
+
+    }
+}
