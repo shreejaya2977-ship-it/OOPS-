@@ -1,0 +1,9 @@
+class Main{
+    public static void main(String[]args)
+    {
+        String str1="I123love456Animals";
+        String regex = "\\d+";
+        System.out.println(str1.replaceFirst(regex, " "));
+
+    }
+}

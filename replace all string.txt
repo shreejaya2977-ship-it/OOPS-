@@ -1,0 +1,9 @@
+class Main{
+    public static void main(String[]args)
+    {
+        String str1="Dog456is789barking";
+        String regex = "\\d+";
+        System.out.println(str1.replaceAll(regex, " "));
+
+    }
+}

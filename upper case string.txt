@@ -1,0 +1,10 @@
+class Main{
+    public static void main(String []args)
+    {
+    String str1 ="jayasree";
+    String str2="parasuraman";
+    
+        System.out.println(str1.toUpperCase());
+        System.out.println(str2.toUpperCase());
+    }
+}
